@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stlye.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.css">
+    <!-- <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.css"> -->
+</head>
+<body>
+    <nav class="sidebar">
+<div class="logo-menu">
+    <h2 class="logo">Kennytelecom</h2>
+    <i class="fa-solid fa-bars toggle-btn"></i>
+</div>
+
+<ul class="list">
+<li class="list-item active">
+    <a href="#">
+        <i class="fa-solid fa-grip-vertical"></i>
+        <span class="link-name" style="--i:1;">Dashboard</span>
+    </a>
+</li>
+<li class="list-item">
+  <a href="#">
+    <i class="fa-regular fa-bell"></i>
+      <span class="link-name" style="--i:2;">Notifications</span>
+  </a>
+</li>
+<li class="list-item">
+    <a href="#">
+        <i class="fa-solid fa-book"></i>
+        <span class="link-name" style="--i:3;">My Transaction</span>
+    </a>
+</li>
+<li class="list-item">
+    <a class="nav-link p-3" href="#">
+        <i class="fa-solid fa-wifi"></i> 
+        <span class="link-name" style="--i:4;">Buy Data Bundle</span>
+    </a>
+</li>
+
+<li class="list-item">
+  <a href="#">
+    <i class="fa-solid fa-money-bills"></i>
+    <span class="link-name" style="--i:5;">Airtime To Cash</span>
+  </a>
+</li>
+
+<li class="list-item">
+  <a href="#">
+    <i class="fa-solid fa-phone"></i> 
+    <span class="link-name" style="--i:6;">Buy Airtime VTU</span>
+  </a>
+</li>
+<li class="list-item">
+    <a href="#">
+        <i class="fa-solid fa-chart-simple"></i>
+        <span class="link-name" style="--i:7;">Analytics</span>
+    </a>
+</li>
+<li class="list-item">
+    <a href="#" >
+      <i class="fa-regular fa-credit-card"></i>
+        <span class="link-name" style="--i:8;">ATM (Pay stack)</span>
+    </a>
+</li>
+<li class="list-item">
+    <a href="#" >
+      <i class="fa-solid fa-money-bill-transfer"></i>
+        <span class="link-name" style="--i:9;">Automated Transfer</span>
+    </a>
+</li>
+<li class="list-item">
+    <a href="#" >
+      <i class="fa-solid fa-building-columns"></i>
+        <span class="link-name" style="--i:10;">Bank Deposite</span>
+    </a>
+</li>
+<li class="list-item">
+  <a  href="#">
+    <i class="fa-solid fa-key"></i>
+    <span class="link-name" style="--i:11;"> Change Password</span>
+  </a>
+</li>
+<li class="list-item">
+  <a href="#">
+    <i class="fa-solid fa-power-off"></i>
+      <span class="link-name" style="--i:12;">Logout</span>
+  </a>
+</li>
+</ul>
+    </nav>
+
+
+    <script>
+        const sidebar = document.querySelector('.sidebar');
+const toggleBtn = document.querySelector('.toggle-btn');
+
+toggleBtn.addEventListener('click', () =>{
+    sidebar.classList.toggle('active');
+})
+    </script>
+</body>
+</html>
